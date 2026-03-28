@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{yang2016wider}
+S.~Yang, P.~Luo, C.-C. Loy, and X.~Tang, ``Wider face: A face detection
+  benchmark,'' in {\em Proceedings of the IEEE conference on computer vision
+  and pattern recognition}, pp.~5525--5533, 2016.
+
+\bibitem{girshick2015fast}
+R.~Girshick, ``Fast r-cnn,'' in {\em Proceedings of the IEEE international
+  conference on computer vision}, pp.~1440--1448, 2015.
+
+\bibitem{zhou2019dense}
+Y.~Zhou, J.~Deng, I.~Kotsia, and S.~Zafeiriou, ``Dense 3d face decoding over
+  2500fps: Joint texture \& shape convolutional mesh decoders,'' in {\em
+  Proceedings of the IEEE/CVF conference on computer vision and pattern
+  recognition}, pp.~1097--1106, 2019.
+
+\bibitem{ranjan2018generating}
+A.~Ranjan, T.~Bolkart, S.~Sanyal, and M.~J. Black, ``Generating 3d faces using
+  convolutional mesh autoencoders,'' in {\em Proceedings of the European
+  conference on computer vision (ECCV)}, pp.~704--720, 2018.
+
+\bibitem{defferrard2016convolutional}
+M.~Defferrard, X.~Bresson, and P.~Vandergheynst, ``Convolutional neural
+  networks on graphs with fast localized spectral filtering,'' {\em Advances in
+  neural information processing systems}, vol.~29, 2016.
+
+\end{thebibliography}
