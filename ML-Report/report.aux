@@ -3,7 +3,7 @@
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/D>>}
 \HyPL@Entry{2<</S/r>>}
-\HyPL@Entry{5<</S/D>>}
+\HyPL@Entry{4<</S/D>>}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Giới thiệu}{1}{chapter.1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -35,9 +35,10 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Minh họa Feature Pyramid được xây dựng dựa trên Image Pyramid}}{9}{figure.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Two-stage và Single-stage:}{9}{section.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Two-stage:}{9}{subsection.3.2.1}\protected@file@percent }
+\citation{dai2017deformable}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Single-stage:}{10}{subsection.3.2.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Minh họa Single-stage và Two-stage Object Detector}}{10}{figure.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Context Modelling:}{10}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Context Modelling: \eqref  {eq:context_modules}}{10}{section.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Multi-task Learning}{11}{section.3.4}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Phương pháp single-stage pixel-wise được đề xuất bằng cách sử dụng extra-supervised và self-supervised multi-task learning song song với các box classification và regression branches hiện có. Mỗi positive anchor bao gồm: (1) face score, (2) face box, (3) 5 facial landmarks, (4) dense 3D face vertices được chiếu trên image plane}}{12}{figure.3.3}\protected@file@percent }
 \citation{girshick2015fast}
@@ -53,43 +54,45 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Minh họa 2D Convolution trong không gian lưới Euclid và Graph Convolution}}{14}{figure.4.1}\protected@file@percent }
 \citation{zhou2019dense}
 \citation{zhou2019dense,defferrard2016convolutional,ranjan2018generating}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Kiến trúc mô hình RetinaFace:}{15}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Backbone:}{15}{subsection.4.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}SSH:}{16}{subsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}FPN:}{16}{subsection.4.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}RetinaFace Source Code}{17}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Minh họa dataflow của mesh decoder mà paper lấy ý tưởng. Image sẽ được đưa qua feature pyramid để tạo ra các feature maps, tại Loss Head, một lớp 1 x 1 convolution layer dùng để trích xuất feature vector duy nhất cho mỗi anchor, từ vector này network predict ra các tham số chung cho cả texture và shape \(P_st \in \mathbb  {R}^{128}\). Tiếp theo tham số được đưa qua Joint Mesh Decoder (sử dụng graph convolution) để tạo ra lưới \(V \in \mathbb  {R}^{n \times 6}\) chứa cả Shape và Texture trên cùng một vertice.}}{15}{figure.4.2}\protected@file@percent }
+\citation{he2016deep}
+\citation{glorot2010understanding}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Implementation details:}{17}{section.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Overview về phương pháp single-stage dense face localisation. RetinaFace được xây dựng dựa trên feature pyramids với những context module độc lập. Qua context modules, ta tính multi-task loss cho mỗi anchor}}{17}{figure.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Feature Pyramid}{17}{subsection.4.2.1}\protected@file@percent }
+\citation{he2016deep}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Minh họa ResNet, ô được tô xanh là model ResNet50, ResNet152 là 152-layer bên phải.}}{19}{figure.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Minh họa cách residual learning hoạt động}}{20}{figure.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Context Module:}{20}{subsection.4.2.2}\protected@file@percent }
+\newlabel{eq:context_modules}{{4.2.2}{20}{Context Module:}{subsection.4.2.2}{}}
+\citation{dai2017deformable}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Minh họa 3 \(\times \) 3 deformable convolution.}}{22}{figure.4.6}\protected@file@percent }
+\citation{zhou2019dense}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Loss Head:}{23}{subsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}RetinaFace Source Code}{24}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Dataset}{17}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Backbone}{17}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Layers}{17}{section.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Loss}{17}{section.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Optimizer}{17}{section.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.6}Model}{17}{section.5.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.7}Training}{17}{section.5.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.8}Evaluation}{17}{section.5.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Kết quả và thực nghiệm}{18}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Dataset:}{24}{section.5.1}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{language=Python, caption=Mã nguồn dataset}{24}{lstlisting.5.-1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Backbone:}{25}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Layers:}{27}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Loss:}{29}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Optimizer:}{31}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Model:}{31}{section.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Kết quả}{34}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Dataset:}{18}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Implementation details:}{18}{section.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Feature Pyramid:}{18}{subsection.6.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Context Module:}{18}{subsection.6.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Loss Head:}{18}{subsection.6.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Data Augmentation:}{18}{subsection.6.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Training - Testing Details:}{18}{subsection.6.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Face box Accuracy}{18}{section.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Five Facial Landmark Accuracy}{18}{section.6.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Dense Facial Landmark Accuracy}{18}{section.6.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.6}Face Recognition Accuracy}{18}{section.6.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Kết luận}{19}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Kết luận}{35}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibstyle{ieeetr}
 \bibdata{tailieu}
 \bibcite{yang2016wider}{1}
-\bibcite{girshick2015fast}{2}
-\bibcite{zhou2019dense}{3}
-\bibcite{ranjan2018generating}{4}
-\bibcite{defferrard2016convolutional}{5}
-\gdef \@abspage@last{25}
+\bibcite{dai2017deformable}{2}
+\bibcite{girshick2015fast}{3}
+\bibcite{zhou2019dense}{4}
+\bibcite{ranjan2018generating}{5}
+\bibcite{defferrard2016convolutional}{6}
+\bibcite{he2016deep}{7}
+\bibcite{glorot2010understanding}{8}
+\gdef \@abspage@last{41}

@@ -18,35 +18,22 @@
 \contentsline {section}{\numberline {3.2}Two-stage và Single-stage:}{9}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Two-stage:}{9}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Single-stage:}{10}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Context Modelling:}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Context Modelling: \eqref {eq:context_modules}}{10}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Multi-task Learning}{11}{section.3.4}%
 \contentsline {chapter}{\numberline {4}RetinaFace Architecture}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Thông tin chung:}{13}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Multi-task Loss:}{13}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Dense Regression Branch:}{14}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Kiến trúc mô hình RetinaFace:}{15}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Backbone:}{15}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}SSH:}{16}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}FPN:}{16}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {5}RetinaFace Source Code}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Dataset}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Backbone}{17}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Layers}{17}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Loss}{17}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Optimizer}{17}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Model}{17}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Training}{17}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Evaluation}{17}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Kết quả và thực nghiệm}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Dataset:}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Implementation details:}{18}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Feature Pyramid:}{18}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Context Module:}{18}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Loss Head:}{18}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Data Augmentation:}{18}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Training - Testing Details:}{18}{subsection.6.2.5}%
-\contentsline {section}{\numberline {6.3}Face box Accuracy}{18}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Five Facial Landmark Accuracy}{18}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Dense Facial Landmark Accuracy}{18}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Face Recognition Accuracy}{18}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Kết luận}{19}{chapter.7}%
+\contentsline {section}{\numberline {4.2}Implementation details:}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Feature Pyramid}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Context Module:}{20}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Loss Head:}{23}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}RetinaFace Source Code}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dataset:}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Backbone:}{25}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Layers:}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Loss:}{29}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Optimizer:}{31}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Model:}{31}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Kết quả}{34}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Kết luận}{35}{chapter.7}%

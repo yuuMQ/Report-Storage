@@ -5,6 +5,11 @@ S.~Yang, P.~Luo, C.-C. Loy, and X.~Tang, ``Wider face: A face detection
   benchmark,'' in {\em Proceedings of the IEEE conference on computer vision
   and pattern recognition}, pp.~5525--5533, 2016.
 
+\bibitem{dai2017deformable}
+J.~Dai, H.~Qi, Y.~Xiong, Y.~Li, G.~Zhang, H.~Hu, and Y.~Wei, ``Deformable
+  convolutional networks,'' in {\em Proceedings of the IEEE international
+  conference on computer vision}, pp.~764--773, 2017.
+
 \bibitem{girshick2015fast}
 R.~Girshick, ``Fast r-cnn,'' in {\em Proceedings of the IEEE international
   conference on computer vision}, pp.~1440--1448, 2015.
@@ -24,5 +29,16 @@ A.~Ranjan, T.~Bolkart, S.~Sanyal, and M.~J. Black, ``Generating 3d faces using
 M.~Defferrard, X.~Bresson, and P.~Vandergheynst, ``Convolutional neural
   networks on graphs with fast localized spectral filtering,'' {\em Advances in
   neural information processing systems}, vol.~29, 2016.
+
+\bibitem{he2016deep}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' in {\em Proceedings of the IEEE conference on computer vision
+  and pattern recognition}, pp.~770--778, 2016.
+
+\bibitem{glorot2010understanding}
+X.~Glorot and Y.~Bengio, ``Understanding the difficulty of training deep
+  feedforward neural networks,'' in {\em Proceedings of the thirteenth
+  international conference on artificial intelligence and statistics},
+  pp.~249--256, JMLR Workshop and Conference Proceedings, 2010.
 
 \end{thebibliography}
