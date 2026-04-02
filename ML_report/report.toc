@@ -1,0 +1,43 @@
+\contentsline {chapter}{\numberline {1}Giới thiệu}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Tổng quan paper: }{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Extra-supervised Learning -- Học có giám sát bổ sung:}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Self-supervised Multi-task Learning -- Học đa tác vụ tự giám sát:}{2}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}WIDER FACE Dataset:}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Metrics và Box trong Face Detection}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Bounding Box:}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}WIDERFACE Annotations:}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Jaccard:}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Intersection over Union (IoU):}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Average Precision và Mean Average Precision:}{6}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Average Precision (AP):}{6}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Mean Average Precision (mAP):}{7}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Related works}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Image Pyramid và Feature Pyramid:}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Image Pyramid}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Feature Pyramid}{8}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Two-stage và Single-stage:}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Two-stage:}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Single-stage:}{10}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Context Modelling: \eqref {eq:context_modules}}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Multi-task Learning}{11}{section.3.4}%
+\contentsline {chapter}{\numberline {4}RetinaFace Architecture}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Thông tin chung:}{13}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Multi-task Loss:}{13}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Dense Regression Branch:}{14}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Implementation details:}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Feature Pyramid}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Context Module:}{20}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Loss Head:}{23}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}RetinaFace Source Code}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dataset:}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Backbone:}{25}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Layers:}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Loss:}{29}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Optimizer:}{31}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Model:}{31}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Ý tưởng cải tiến:}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Hạn chế của paper hiện tại:}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Swin Transformer for feature extraction:}{34}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Feature Enhancement Feature Pyramid Network:}{34}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Kết quả thực nghiệm:}{35}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Kết luận}{36}{chapter.8}%
